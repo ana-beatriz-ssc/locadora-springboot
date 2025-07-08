@@ -21,16 +21,14 @@ O sistema utiliza:
 - Cálculo de aluguel com base no tipo do veículo
 - Cálculo de seguro individual por tipo
 - Depreciação e reajuste de diárias
-- Consultas por tipo
-t
-## 🧱 Estrutura de Classes
 
-- Entidades:
-  - `Veiculo` (classe base)
-  - `Moto`, `Carro`, `Caminhao`, `Onibus` (herança)
-  - `Cliente`, `Aluguel`
-- Repositórios com Spring Data JPA
-- Controladores para clientes, veículos e aluguéis
+## 🧱 Estrutura:
+
+- `controller/` – Endpoints da API
+- `model/` – Entidades: `Cliente`, `Veiculo`, `Aluguel`, etc.
+- `repository/` – Interfaces JPA para persistência
+- `dto/` – Objetos de transferência (requests/responses)
+- `service/` – Aplicação principal
 
 ## 🗄️ Banco de Dados
 
