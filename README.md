@@ -28,7 +28,7 @@ O sistema utiliza:
 - `model/` – Entidades: `Cliente`, `Veiculo`, `Aluguel`, etc.
 - `repository/` – Interfaces JPA para persistência
 - `dto/` – Objetos de transferência (requests/responses)
-- `service/` – Aplicação principal
+- `service/` – Regras de negócio (`*Service`)
 
 ## 🗄️ Banco de Dados
 
